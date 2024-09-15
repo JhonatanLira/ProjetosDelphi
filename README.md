@@ -32,7 +32,7 @@
     </tr>
 	 <tr>
       <td>6</td>
-	  <td>Sistema de Clinica Médica</td>
+	  <td>Sistema de Clinica Médica parte 1</td>
     </tr>
   </tbody>
 </table>
