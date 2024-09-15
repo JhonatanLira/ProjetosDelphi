@@ -1,0 +1,64 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 441
+  ClientWidth = 709
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  Menu = MainMenu1
+  TextHeight = 15
+  object Label1: TLabel
+    Left = 128
+    Top = 304
+    Width = 444
+    Height = 15
+    Caption = 
+      'https://youtu.be/4IH8f8NJOcQ?list=PLVetaKmuPN9_gBPcyRZ7YinNXsNPS' +
+      'frwY&t=198'
+  end
+  object MainMenu1: TMainMenu
+    Left = 312
+    Top = 200
+    object Sistema1: TMenuItem
+      Caption = 'Sistema'
+      object Configuraes1: TMenuItem
+        Caption = 'Configura'#231#245'es'
+      end
+      object Usuarios1: TMenuItem
+        Caption = 'Usuarios'
+      end
+      object N1: TMenuItem
+        Caption = '-'
+      end
+      object Sair1: TMenuItem
+        Caption = 'Sair'
+      end
+    end
+    object Sair2: TMenuItem
+      Caption = 'Cadastro'
+      object Clientes1: TMenuItem
+        Caption = 'Clientes'
+      end
+      object Produtos1: TMenuItem
+        Caption = 'Produtos'
+      end
+      object Funcionarios1: TMenuItem
+        Caption = 'Funcionarios'
+      end
+    end
+    object Consultas1: TMenuItem
+      Caption = 'Consultas'
+      object Clientes2: TMenuItem
+        Caption = 'Clientes'
+      end
+      object Produtos2: TMenuItem
+        Caption = 'Produtos'
+      end
+    end
+  end
+end
