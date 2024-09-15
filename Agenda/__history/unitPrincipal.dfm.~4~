@@ -1,0 +1,108 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Agenda de Contatos'
+  ClientHeight = 546
+  ClientWidth = 705
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object Label1: TLabel
+    Left = 128
+    Top = 24
+    Width = 305
+    Height = 41
+    Caption = 'Agenda de Contatos'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -30
+    Font.Name = 'Segoe UI'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 128
+    Top = 153
+    Width = 94
+    Height = 17
+    Caption = 'Nome do contato'
+  end
+  object Label3: TLabel
+    Left = 128
+    Top = 211
+    Width = 37
+    Height = 15
+    Caption = 'Celular'
+  end
+  object Label4: TLabel
+    Left = 128
+    Top = 304
+    Width = 67
+    Height = 18
+    Caption = 'Observa'#231#245'es'
+  end
+  object Label5: TLabel
+    Left = 128
+    Top = 497
+    Width = 129
+    Height = 15
+    Caption = 'Data e Hora do Cadastro'
+  end
+  object DBText1: TDBText
+    Left = 64
+    Top = 510
+    Width = 289
+    Height = 17
+    DataField = 'data'
+    DataSource = DM.dsContato
+  end
+  object DBEdit1: TDBEdit
+    Left = 128
+    Top = 176
+    Width = 401
+    Height = 23
+    DataField = 'nome'
+    DataSource = DM.dsContato
+    TabOrder = 0
+  end
+  object DBEdit2: TDBEdit
+    Left = 128
+    Top = 232
+    Width = 153
+    Height = 23
+    DataField = 'celular'
+    DataSource = DM.dsContato
+    TabOrder = 1
+  end
+  object DBCheckBox1: TDBCheckBox
+    Left = 128
+    Top = 272
+    Width = 97
+    Height = 17
+    Caption = 'DBCheckBox1'
+    DataField = 'bloqueado'
+    DataSource = DM.dsContato
+    TabOrder = 2
+  end
+  object DBMemo1: TDBMemo
+    Left = 128
+    Top = 328
+    Width = 401
+    Height = 145
+    DataField = 'observacoes'
+    DataSource = DM.dsContato
+    TabOrder = 3
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 128
+    Top = 96
+    Width = 400
+    Height = 25
+    DataSource = DM.dsContato
+    TabOrder = 4
+  end
+end

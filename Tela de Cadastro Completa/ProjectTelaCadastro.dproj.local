@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/08/22 20:42:10.000.205,=A:\Jhonatan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/09/05 06:38:51.000.074,=A:\Jhonatan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/09/05 06:39:53.000.785,A:\Objet Pascal\Delphi\Tela de Cadastro Completa\UnitTelaCadastro.dfm=A:\Jhonatan\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024/09/05 06:39:53.000.785,A:\Objet Pascal\Delphi\Tela de Cadastro Completa\UnitTelaCadastro.pas=A:\Jhonatan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/09/05 06:40:04.000.039,A:\Objet Pascal\Delphi\Tela de Cadastro Completa\ProjectTelaCadastro.dproj=A:\Jhonatan\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

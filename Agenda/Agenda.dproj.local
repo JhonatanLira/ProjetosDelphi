@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/08/22 20:42:10.000.205,=A:\Jhonatan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/09/09 08:27:02.000.974,=A:\Jhonatan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/09/12 20:22:02.000.177,=A:\Jhonatan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/09/12 20:23:08.000.577,A:\Jhonatan\Documents\Embarcadero\Studio\Projects\Unit1.dfm=A:\GIT\ProjetosDelphi\Agenda\unitPrincipal.dfm</Transaction>
+    <Transaction>2024/09/12 20:23:08.000.577,A:\Jhonatan\Documents\Embarcadero\Studio\Projects\Unit1.pas=A:\GIT\ProjetosDelphi\Agenda\unitPrincipal.pas</Transaction>
+    <Transaction>2024/09/12 20:23:23.000.697,A:\Jhonatan\Documents\Embarcadero\Studio\Projects\Project1.dproj=A:\GIT\ProjetosDelphi\Agenda\Agenda.dproj</Transaction>
+    <Transaction>2024/09/12 20:27:20.000.773,=A:\GIT\ProjetosDelphi\Agenda\Unit1.pas</Transaction>
+    <Transaction>2024/09/12 20:28:13.000.505,A:\GIT\ProjetosDelphi\Agenda\Unit1.pas=A:\GIT\ProjetosDelphi\Agenda\unitDM.pas</Transaction>
+    <Transaction>2024/09/12 20:28:13.000.505,A:\GIT\ProjetosDelphi\Agenda\Unit1.dfm=A:\GIT\ProjetosDelphi\Agenda\unitDM.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -18,8 +18,21 @@
       <td>2</td>
       <td>Criação de Telas</td>
     </tr>
-<!--     <tr>
-      <td></td>
-    </tr>-->
+    <tr>
+      <td>3</td>
+	  <td>Criando menus</td>
+    </tr>
+	 <tr>
+      <td>4</td>
+	  <td>Tela de Cadastro</td>
+    </tr>
+	 <tr>
+      <td>5</td>
+	  <td>Agenda de Contatos</td>
+    </tr>
+	 <tr>
+      <td>6</td>
+	  <td>Sistema de Clinica Médica</td>
+    </tr>
   </tbody>
 </table>
