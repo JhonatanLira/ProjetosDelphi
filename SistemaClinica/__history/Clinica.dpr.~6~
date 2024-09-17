@@ -1,0 +1,18 @@
+program Clinica;
+
+uses
+  Vcl.Forms,
+  UnitPrincipal in 'UnitPrincipal.pas' {formPrincipal},
+  UnitCadPaciente in 'UnitCadPaciente.pas' {formCadPaciente},
+  UnitCadAgendamento in 'UnitCadAgendamento.pas' {formCadAgendamentos};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TformPrincipal, formPrincipal);
+  Application.CreateForm(TformCadPaciente, formCadPaciente);
+  Application.CreateForm(TformCadAgendamentos, formCadAgendamentos);
+  Application.Run;
+end.

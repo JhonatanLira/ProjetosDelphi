@@ -1,4 +1,4 @@
-object TelaPrincipal: TTelaPrincipal
+object formPrincipal: TformPrincipal
   Left = 0
   Top = 0
   Caption = 'Sistema de Cl'#237'nica M'#233'dica'
@@ -748,6 +748,7 @@ object TelaPrincipal: TTelaPrincipal
     Align = alTop
     ParentBackground = False
     TabOrder = 0
+    ExplicitWidth = 622
     object BitBtn1: TBitBtn
       Left = 105
       Top = 1
@@ -976,7 +977,7 @@ object TelaPrincipal: TTelaPrincipal
         FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
       Layout = blGlyphTop
       TabOrder = 0
-      ExplicitLeft = 111
+      OnClick = BitBtn1Click
     end
     object BitBtn2: TBitBtn
       Left = 1
@@ -1206,24 +1207,28 @@ object TelaPrincipal: TTelaPrincipal
         FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
       Layout = blGlyphTop
       TabOrder = 1
+      OnClick = BitBtn2Click
     end
   end
   object MainMenu1: TMainMenu
-    Left = 288
-    Top = 216
+    Left = 280
+    Top = 16
     object Sistema1: TMenuItem
       Caption = 'Sistema'
       object sair1: TMenuItem
         Caption = 'sair'
+        OnClick = sair1Click
       end
     end
     object Cadastro1: TMenuItem
       Caption = 'Cadastro'
       object Pacientes1: TMenuItem
         Caption = 'Pacientes'
+        OnClick = Pacientes1Click
       end
       object Agendamentos1: TMenuItem
         Caption = 'Agendamentos'
+        OnClick = Agendamentos1Click
       end
     end
   end
