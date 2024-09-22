@@ -12,7 +12,7 @@ type
     MainMenu1: TMainMenu;
     Sistema1: TMenuItem;
     sair1: TMenuItem;
-    Cadastro1: TMenuItem;
+    Cadastros1: TMenuItem;
     Pacientes1: TMenuItem;
     Agendamentos1: TMenuItem;
     Panel1: TPanel;
@@ -37,31 +37,31 @@ implementation
 
 {$R *.dfm}
 
-uses UnitCadPacientes, UnitCadAgendamentos;
+uses unitCadPacientes, unitCadAgendamentos;
 
 procedure TformPrincipal.Agendamentos1Click(Sender: TObject);
 begin
-formCadAgendamentos.showModal;
+  formCadAgendamentos.ShowModal;
 end;
 
 procedure TformPrincipal.BitBtn1Click(Sender: TObject);
 begin
-  formCadAgendamentos.showModal;
+formCadAgendamentos.showModal;
 end;
 
 procedure TformPrincipal.BitBtn2Click(Sender: TObject);
 begin
-        formCadPacientes.showModal;
+  formCadPacientes.showModal;
 end;
 
 procedure TformPrincipal.Pacientes1Click(Sender: TObject);
 begin
-          formCadPacientes.showModal;
+  formCadPacientes.ShowModal;
 end;
 
 procedure TformPrincipal.sair1Click(Sender: TObject);
 begin
-       Application.Terminate;
+  Application.Terminate;
 end;
 
 end.

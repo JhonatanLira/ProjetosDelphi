@@ -1,7 +1,7 @@
 object formCadAgendamentos: TformCadAgendamentos
   Left = 0
   Top = 0
-  Caption = 'Agendamentos'
+  Caption = 'formCadAgendamentos'
   ClientHeight = 441
   ClientWidth = 624
   Color = clBtnFace

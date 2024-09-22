@@ -1,9 +1,9 @@
 object formPrincipal: TformPrincipal
   Left = 0
   Top = 0
-  Caption = 'Sistema de Cl'#237'nica M'#233'dica'
-  ClientHeight = 441
-  ClientWidth = 624
+  Caption = 'Sistema de Clinica M'#233'diica'
+  ClientHeight = 459
+  ClientWidth = 704
   Color = clWhite
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -15,9 +15,9 @@ object formPrincipal: TformPrincipal
   TextHeight = 15
   object Image1: TImage
     Left = 0
-    Top = 89
-    Width = 624
-    Height = 352
+    Top = 105
+    Width = 704
+    Height = 354
     Align = alClient
     Center = True
     Picture.Data = {
@@ -735,27 +735,27 @@ object formPrincipal: TformPrincipal
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
       000000000000000000000000000000000000000000000000000001FFD9}
-    ExplicitLeft = 320
-    ExplicitTop = 304
+    ExplicitLeft = 296
+    ExplicitTop = 256
     ExplicitWidth = 105
     ExplicitHeight = 105
   end
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 624
-    Height = 89
+    Width = 704
+    Height = 105
     Align = alTop
     ParentBackground = False
     TabOrder = 0
-    ExplicitWidth = 622
+    ExplicitWidth = 624
     object BitBtn1: TBitBtn
-      Left = 105
+      Left = 129
       Top = 1
-      Width = 104
-      Height = 87
+      Width = 128
+      Height = 103
       Align = alLeft
-      Caption = 'Agendamento'
+      Caption = 'Agendamentos'
       Glyph.Data = {
         361B0000424D361B000000000000360000002800000030000000300000000100
         180000000000001B0000C40E0000C40E00000000000000000000FFFFFFFFFFFF
@@ -978,14 +978,15 @@ object formPrincipal: TformPrincipal
       Layout = blGlyphTop
       TabOrder = 0
       OnClick = BitBtn1Click
+      ExplicitLeft = 1
     end
     object BitBtn2: TBitBtn
       Left = 1
       Top = 1
-      Width = 104
-      Height = 87
+      Width = 128
+      Height = 103
       Align = alLeft
-      Caption = 'Paciente'
+      Caption = 'Pacientes'
       Glyph.Data = {
         361B0000424D361B000000000000360000002800000030000000300000000100
         180000000000001B0000C40E0000C40E00000000000000000000FFFFFFFFFFFF
@@ -1211,17 +1212,17 @@ object formPrincipal: TformPrincipal
     end
   end
   object MainMenu1: TMainMenu
-    Left = 280
-    Top = 16
+    Left = 320
+    Top = 24
     object Sistema1: TMenuItem
-      Caption = 'Sistema'
+      Caption = 'Sistema '
       object sair1: TMenuItem
         Caption = 'sair'
         OnClick = sair1Click
       end
     end
-    object Cadastro1: TMenuItem
-      Caption = 'Cadastro'
+    object Cadastros1: TMenuItem
+      Caption = 'Cadastros'
       object Pacientes1: TMenuItem
         Caption = 'Pacientes'
         OnClick = Pacientes1Click

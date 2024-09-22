@@ -1,7 +1,7 @@
-object TelaPrincipal: TTelaPrincipal
+object Form1: TForm1
   Left = 0
   Top = 0
-  Caption = 'Sistema de Cl'#237'nica M'#233'dica'
+  Caption = 'Sistema de Clinica M'#233'diica'
   ClientHeight = 441
   ClientWidth = 624
   Color = clWhite
@@ -17,16 +17,17 @@ object TelaPrincipal: TTelaPrincipal
     Left = 0
     Top = 0
     Width = 624
-    Height = 89
+    Height = 105
     Align = alTop
+    ParentBackground = False
     TabOrder = 0
     object BitBtn1: TBitBtn
-      Left = 105
+      Left = 129
       Top = 1
-      Width = 104
-      Height = 87
+      Width = 128
+      Height = 103
       Align = alLeft
-      Caption = 'Agendamento'
+      Caption = 'Agendamentos'
       Glyph.Data = {
         361B0000424D361B000000000000360000002800000030000000300000000100
         180000000000001B0000C40E0000C40E00000000000000000000FFFFFFFFFFFF
@@ -248,15 +249,15 @@ object TelaPrincipal: TTelaPrincipal
         FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
       Layout = blGlyphTop
       TabOrder = 0
-      ExplicitLeft = 111
+      ExplicitLeft = 1
     end
     object BitBtn2: TBitBtn
       Left = 1
       Top = 1
-      Width = 104
-      Height = 87
+      Width = 128
+      Height = 103
       Align = alLeft
-      Caption = 'Paciente'
+      Caption = 'Pacientes'
       Glyph.Data = {
         361B0000424D361B000000000000360000002800000030000000300000000100
         180000000000001B0000C40E0000C40E00000000000000000000FFFFFFFFFFFF
@@ -481,20 +482,23 @@ object TelaPrincipal: TTelaPrincipal
     end
   end
   object MainMenu1: TMainMenu
-    Left = 288
-    Top = 216
+    Left = 376
+    Top = 224
     object Sistema1: TMenuItem
-      Caption = 'Sistema'
+      Caption = 'Sistema '
       object sair1: TMenuItem
         Caption = 'sair'
       end
     end
-    object Cadastro1: TMenuItem
-      Caption = 'Cadastro'
+    object Cadastros1: TMenuItem
+      Caption = 'Cadastros'
       object Pacientes1: TMenuItem
         Caption = 'Pacientes'
       end
       object Agendamentos1: TMenuItem
+        Caption = 'Agendamentos'
+      end
+      object Agendamentos2: TMenuItem
         Caption = 'Agendamentos'
       end
     end

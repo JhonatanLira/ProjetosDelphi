@@ -3,7 +3,7 @@ object formCadAgendamentos: TformCadAgendamentos
   Top = 0
   BorderIcons = [biSystemMenu]
   BorderStyle = bsSingle
-  Caption = 'Agendamentos'
+  Caption = 'formCadAgendamentos'
   ClientHeight = 441
   ClientWidth = 624
   Color = clBtnFace

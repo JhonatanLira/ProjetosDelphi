@@ -30,6 +30,9 @@
       <td>6</td>
 	  <td>Sistema de Clinica Médica - parte 1</td>
     </tr>
+	<td>7</td>
+	  <td>Sistema de Clinica Médica - parte 2</td>
+    </tr>
   </tbody>
 </body>
 </table>

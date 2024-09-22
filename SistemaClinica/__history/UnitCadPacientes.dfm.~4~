@@ -2,7 +2,8 @@ object formCadPacientes: TformCadPacientes
   Left = 0
   Top = 0
   BorderIcons = [biSystemMenu]
-  Caption = 'Cadastro de Pacientes'
+  BorderStyle = bsSingle
+  Caption = 'formCadPacientes'
   ClientHeight = 441
   ClientWidth = 624
   Color = clBtnFace

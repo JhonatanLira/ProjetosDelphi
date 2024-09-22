@@ -8,17 +8,16 @@ uses
   Vcl.Menus;
 
 type
-  TTelaPrincipal = class(TForm)
+  TForm1 = class(TForm)
     MainMenu1: TMainMenu;
     Sistema1: TMenuItem;
     sair1: TMenuItem;
-    Cadastro1: TMenuItem;
+    Cadastros1: TMenuItem;
     Pacientes1: TMenuItem;
     Agendamentos1: TMenuItem;
     Agendamentos2: TMenuItem;
     Panel1: TPanel;
     BitBtn1: TBitBtn;
-    BitBtn2: TBitBtn;
   private
     { Private declarations }
   public
@@ -26,7 +25,7 @@ type
   end;
 
 var
-  TelaPrincipal: TTelaPrincipal;
+  Form1: TForm1;
 
 implementation
 

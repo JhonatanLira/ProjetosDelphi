@@ -8,11 +8,11 @@ uses
   Vcl.Menus, Vcl.Imaging.jpeg;
 
 type
-  TformPrincipal = class(TForm)
+  TForm1 = class(TForm)
     MainMenu1: TMainMenu;
     Sistema1: TMenuItem;
     sair1: TMenuItem;
-    Cadastro1: TMenuItem;
+    Cadastros1: TMenuItem;
     Pacientes1: TMenuItem;
     Agendamentos1: TMenuItem;
     Panel1: TPanel;
@@ -26,7 +26,7 @@ type
   end;
 
 var
-  formPrincipal: TformPrincipal;
+  Form1: TForm1;
 
 implementation
 

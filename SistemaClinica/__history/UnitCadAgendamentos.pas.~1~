@@ -1,4 +1,4 @@
-unit UnitCadAgendamento;
+unit unitCadAgendamentos;
 
 interface
 
@@ -7,7 +7,7 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs;
 
 type
-  TformCadAgendamentos = class(TForm)
+  TForm3 = class(TForm)
   private
     { Private declarations }
   public
@@ -15,7 +15,7 @@ type
   end;
 
 var
-  formCadAgendamentos: TformCadAgendamentos;
+  Form3: TForm3;
 
 implementation
 
