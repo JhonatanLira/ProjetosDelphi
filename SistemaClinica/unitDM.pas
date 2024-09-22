@@ -17,6 +17,12 @@ type
     tbAgendamento: TFDTable;
     dsPaciente: TDataSource;
     dsAgendamento: TDataSource;
+    tbPacienteid: TFDAutoIncField;
+    tbPacientenome: TStringField;
+    tbPacientecelular: TStringField;
+    tbPacientedata_cadastro: TDateField;
+    tbPacientecpf: TStringField;
+    procedure tbPacienteAfterInsert(DataSet: TDataSet);
   private
     { Private declarations }
   public
@@ -31,5 +37,10 @@ implementation
 {%CLASSGROUP 'Vcl.Controls.TControl'}
 
 {$R *.dfm}
+
+procedure TDM.tbPacienteAfterInsert(DataSet: TDataSet);
+begin
+  tbPacientedata_cadastro.Value:= Date();
+end;
 
 end.

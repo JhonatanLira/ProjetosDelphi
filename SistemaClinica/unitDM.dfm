@@ -9,17 +9,48 @@ object DM: TDM
       'DriverID=MySQL')
     Connected = True
     LoginPrompt = False
-    Left = 48
+    Left = 104
     Top = 176
   end
   object tbPaciente: TFDTable
     Active = True
+    AfterInsert = tbPacienteAfterInsert
     IndexFieldNames = 'id'
     Connection = Conexao
     ResourceOptions.AssignedValues = [rvEscapeExpand]
     TableName = 'clinica.paciente'
     Left = 296
     Top = 80
+    object tbPacienteid: TFDAutoIncField
+      FieldName = 'id'
+      Origin = 'id'
+      ReadOnly = False
+    end
+    object tbPacientenome: TStringField
+      FieldName = 'nome'
+      Origin = 'nome'
+      Required = True
+      Size = 80
+    end
+    object tbPacientecelular: TStringField
+      FieldName = 'celular'
+      Origin = 'celular'
+      Required = True
+      EditMask = '(##) #####-####;1;_'
+      Size = 11
+    end
+    object tbPacientedata_cadastro: TDateField
+      FieldName = 'data_cadastro'
+      Origin = 'data_cadastro'
+      Required = True
+    end
+    object tbPacientecpf: TStringField
+      FieldName = 'cpf'
+      Origin = 'cpf'
+      Required = True
+      EditMask = '###.###.###-##;1;_'
+      Size = 14
+    end
   end
   object tbAgendamento: TFDTable
     Active = True
