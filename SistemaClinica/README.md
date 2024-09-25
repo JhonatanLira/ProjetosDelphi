@@ -5,7 +5,7 @@
 <table border="1">
     <thead>
         <tr>
-            <th colspan="4">Projetos&nbsp &nbsp &nbsp &nbsp</th>
+            <th colspan="4" style="text-align:center">Projeto</th>
         </tr>
     </thead>
     <tbody>
@@ -24,3 +24,11 @@
     </tbody>
     </body>
 </table>
+
+
+<h3>Tecnologias</h3>
+
+ 
+<p>Delphi 12.2 <img src="../img/delphi-logo-1024.png" width=50 align="right"/><br/></p>
+<p>MariaDB 10.4.32 <img src="icon/mariadb-icon.svg" width=100 align="right"/><br/></p>
+      
