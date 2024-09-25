@@ -4,8 +4,10 @@
 
 <table border="1">
     <thead>
-        <tr>
-            <th colspan="4">Projetos&nbsp &nbsp &nbsp &nbsp</th>
+        <tr >
+            <th colspan="4" style="Text-align: center"> 
+              Projetos
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -33,6 +35,18 @@
             <td>8</td>
             <td>Sistema de Clinica Médica - parte 3</td>
         </tr>
+        <tr>
+            <td>9</td>
+            <td colspan="4">Sistema de Clinica Médica - Minhas implementações - Especialidade & Médico</td>    
+        </tr>
+        <!--
+        <tr>
+            <td>10</td>
+            <td ></td>    
+            <td>11</td>
+            <td ></td>    
+        </tr>
+        -->
     </tbody>
     </body>
 </table>

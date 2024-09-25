@@ -28,6 +28,10 @@ type
     tbAgendamentohora: TStringField;
     tbAgendamentoexpecialidade: TStringField;
     tbAgendamentomedido: TStringField;
+    tbEspecialidade: TFDTable;
+    tbMedico: TFDTable;
+    dsEspecialidade: TDataSource;
+    dsMedico: TDataSource;
     procedure tbPacienteAfterInsert(DataSet: TDataSet);
   private
     { Private declarations }

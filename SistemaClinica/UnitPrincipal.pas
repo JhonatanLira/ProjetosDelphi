@@ -19,11 +19,15 @@ type
     BitBtn1: TBitBtn;
     BitBtn2: TBitBtn;
     Image1: TImage;
+    Especialidades1: TMenuItem;
+    Mdicos1: TMenuItem;
     procedure sair1Click(Sender: TObject);
     procedure Pacientes1Click(Sender: TObject);
     procedure Agendamentos1Click(Sender: TObject);
     procedure BitBtn2Click(Sender: TObject);
     procedure BitBtn1Click(Sender: TObject);
+    procedure Especialidades1Click(Sender: TObject);
+    procedure Mdicos1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -37,7 +41,8 @@ implementation
 
 {$R *.dfm}
 
-uses unitCadPacientes, unitCadAgendamentos;
+uses unitCadPacientes, unitCadAgendamentos, unitCadEspecialidades,
+  unitCadMedico;
 
 procedure TformPrincipal.Agendamentos1Click(Sender: TObject);
 begin
@@ -52,6 +57,16 @@ end;
 procedure TformPrincipal.BitBtn2Click(Sender: TObject);
 begin
   formCadPacientes.showModal;
+end;
+
+procedure TformPrincipal.Especialidades1Click(Sender: TObject);
+begin
+formEspecialidades.showModal;
+end;
+
+procedure TformPrincipal.Mdicos1Click(Sender: TObject);
+begin
+  formCadMedico.showModal;
 end;
 
 procedure TformPrincipal.Pacientes1Click(Sender: TObject);

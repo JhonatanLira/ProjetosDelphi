@@ -1,0 +1,24 @@
+unit unitCadMedico;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs;
+
+type
+  TformCadMedico = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  formCadMedico: TformCadMedico;
+
+implementation
+
+{$R *.dfm}
+
+end.

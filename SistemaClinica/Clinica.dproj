@@ -140,6 +140,14 @@
             <FormType>dfm</FormType>
             <DesignClass>TDataModule</DesignClass>
         </DCCReference>
+        <DCCReference Include="unitCadEspecialidades.pas">
+            <Form>formEspecialidades</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="unitCadMedico.pas">
+            <Form>formCadMedico</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

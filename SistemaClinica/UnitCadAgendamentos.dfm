@@ -4,8 +4,8 @@ object formCadAgendamentos: TformCadAgendamentos
   BorderIcons = [biSystemMenu]
   BorderStyle = bsSingle
   Caption = 'formCadAgendamentos'
-  ClientHeight = 495
-  ClientWidth = 876
+  ClientHeight = 500
+  ClientWidth = 865
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -15,8 +15,8 @@ object formCadAgendamentos: TformCadAgendamentos
   Position = poScreenCenter
   TextHeight = 15
   object Label3: TLabel
-    Left = 40
-    Top = 138
+    Left = 32
+    Top = 122
     Width = 15
     Height = 20
     Caption = 'ID'
@@ -28,8 +28,8 @@ object formCadAgendamentos: TformCadAgendamentos
     ParentFont = False
   end
   object Label4: TLabel
-    Left = 161
-    Top = 139
+    Left = 153
+    Top = 123
     Width = 122
     Height = 20
     Caption = 'Nome do Paciente'
@@ -41,8 +41,8 @@ object formCadAgendamentos: TformCadAgendamentos
     ParentFont = False
   end
   object Label2: TLabel
-    Left = 40
-    Top = 211
+    Left = 32
+    Top = 195
     Width = 36
     Height = 20
     Caption = 'Data '
@@ -54,8 +54,8 @@ object formCadAgendamentos: TformCadAgendamentos
     ParentFont = False
   end
   object Label5: TLabel
-    Left = 161
-    Top = 211
+    Left = 153
+    Top = 195
     Width = 33
     Height = 20
     Caption = 'Hora'
@@ -67,8 +67,8 @@ object formCadAgendamentos: TformCadAgendamentos
     ParentFont = False
   end
   object Label6: TLabel
-    Left = 40
-    Top = 270
+    Left = 32
+    Top = 254
     Width = 98
     Height = 20
     Caption = 'Especialidades'
@@ -80,8 +80,8 @@ object formCadAgendamentos: TformCadAgendamentos
     ParentFont = False
   end
   object Label7: TLabel
-    Left = 40
-    Top = 338
+    Left = 32
+    Top = 322
     Width = 117
     Height = 20
     Caption = 'Nome do M'#233'dico'
@@ -95,12 +95,11 @@ object formCadAgendamentos: TformCadAgendamentos
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 876
+    Width = 865
     Height = 97
     Align = alTop
     TabOrder = 0
-    ExplicitLeft = -241
-    ExplicitWidth = 865
+    ExplicitWidth = 874
     object Label1: TLabel
       Left = 40
       Top = 32
@@ -115,17 +114,17 @@ object formCadAgendamentos: TformCadAgendamentos
       ParentFont = False
     end
     object DBNavigator1: TDBNavigator
-      Left = 456
+      Left = 412
       Top = 24
-      Width = 390
+      Width = 430
       Height = 57
       DataSource = DM.dsAgendamento
       TabOrder = 0
     end
   end
   object txtID: TDBEdit
-    Left = 40
-    Top = 164
+    Left = 32
+    Top = 148
     Width = 115
     Height = 28
     DataField = 'id'
@@ -139,8 +138,8 @@ object formCadAgendamentos: TformCadAgendamentos
     TabOrder = 1
   end
   object DBLookupComboBox1: TDBLookupComboBox
-    Left = 161
-    Top = 165
+    Left = 153
+    Top = 149
     Width = 305
     Height = 28
     DataField = 'id_paciente'
@@ -152,13 +151,13 @@ object formCadAgendamentos: TformCadAgendamentos
     Font.Style = []
     KeyField = 'id'
     ListField = 'nome'
-    ListSource = DM.dsPaciente
+    ListSource = DM.dsEspecialidade
     ParentFont = False
     TabOrder = 2
   end
   object DBEdit1: TDBEdit
-    Left = 40
-    Top = 232
+    Left = 32
+    Top = 216
     Width = 111
     Height = 28
     DataField = 'data'
@@ -173,8 +172,8 @@ object formCadAgendamentos: TformCadAgendamentos
     TabOrder = 3
   end
   object DBEdit2: TDBEdit
-    Left = 161
-    Top = 232
+    Left = 153
+    Top = 216
     Width = 115
     Height = 28
     DataField = 'hora'
@@ -189,8 +188,8 @@ object formCadAgendamentos: TformCadAgendamentos
     TabOrder = 4
   end
   object DBComboBox1: TDBComboBox
-    Left = 40
-    Top = 296
+    Left = 32
+    Top = 280
     Width = 243
     Height = 28
     DataField = 'expecialidade'
@@ -207,8 +206,8 @@ object formCadAgendamentos: TformCadAgendamentos
     TabOrder = 5
   end
   object DBEdit3: TDBEdit
-    Left = 36
-    Top = 361
+    Left = 28
+    Top = 345
     Width = 247
     Height = 28
     DataField = 'medido'
@@ -222,8 +221,8 @@ object formCadAgendamentos: TformCadAgendamentos
     TabOrder = 6
   end
   object DBGrid1: TDBGrid
-    Left = 472
-    Top = 164
+    Left = 464
+    Top = 148
     Width = 369
     Height = 269
     DataSource = DM.dsAgendamento

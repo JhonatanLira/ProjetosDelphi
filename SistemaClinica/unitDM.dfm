@@ -9,18 +9,17 @@ object DM: TDM
       'DriverID=MySQL')
     Connected = True
     LoginPrompt = False
-    Left = 104
-    Top = 176
+    Left = 32
+    Top = 152
   end
   object tbPaciente: TFDTable
-    Active = True
     AfterInsert = tbPacienteAfterInsert
     IndexFieldNames = 'id'
     Connection = Conexao
     ResourceOptions.AssignedValues = [rvEscapeExpand]
     TableName = 'clinica.paciente'
-    Left = 296
-    Top = 80
+    Left = 160
+    Top = 64
     object tbPacienteid: TFDAutoIncField
       FieldName = 'id'
       Origin = 'id'
@@ -58,8 +57,8 @@ object DM: TDM
     Connection = Conexao
     ResourceOptions.AssignedValues = [rvEscapeExpand]
     TableName = 'clinica.agendamento'
-    Left = 456
-    Top = 72
+    Left = 288
+    Top = 56
     object tbAgendamentoid: TFDAutoIncField
       FieldName = 'id'
       Origin = 'id'
@@ -98,12 +97,40 @@ object DM: TDM
   end
   object dsPaciente: TDataSource
     DataSet = tbPaciente
-    Left = 296
-    Top = 224
+    Left = 160
+    Top = 208
   end
   object dsAgendamento: TDataSource
     DataSet = tbAgendamento
-    Left = 464
-    Top = 224
+    Left = 296
+    Top = 208
+  end
+  object tbEspecialidade: TFDTable
+    Active = True
+    IndexFieldNames = 'id'
+    Connection = Conexao
+    ResourceOptions.AssignedValues = [rvEscapeExpand]
+    TableName = 'clinica.especialidade'
+    Left = 432
+    Top = 56
+  end
+  object tbMedico: TFDTable
+    Active = True
+    IndexFieldNames = 'id'
+    Connection = Conexao
+    ResourceOptions.AssignedValues = [rvEscapeExpand]
+    TableName = 'clinica.medico'
+    Left = 552
+    Top = 56
+  end
+  object dsEspecialidade: TDataSource
+    DataSet = tbEspecialidade
+    Left = 424
+    Top = 208
+  end
+  object dsMedico: TDataSource
+    DataSet = tbMedico
+    Left = 552
+    Top = 208
   end
 end

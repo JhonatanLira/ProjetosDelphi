@@ -735,10 +735,8 @@ object formPrincipal: TformPrincipal
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
       000000000000000000000000000000000000000000000000000001FFD9}
-    ExplicitLeft = 296
-    ExplicitTop = 256
-    ExplicitWidth = 105
-    ExplicitHeight = 105
+    ExplicitLeft = -32
+    ExplicitTop = 369
   end
   object Panel1: TPanel
     Left = 0
@@ -748,7 +746,7 @@ object formPrincipal: TformPrincipal
     Align = alTop
     ParentBackground = False
     TabOrder = 0
-    ExplicitWidth = 624
+    ExplicitWidth = 702
     object BitBtn1: TBitBtn
       Left = 129
       Top = 1
@@ -978,7 +976,6 @@ object formPrincipal: TformPrincipal
       Layout = blGlyphTop
       TabOrder = 0
       OnClick = BitBtn1Click
-      ExplicitLeft = 1
     end
     object BitBtn2: TBitBtn
       Left = 1
@@ -1230,6 +1227,14 @@ object formPrincipal: TformPrincipal
       object Agendamentos1: TMenuItem
         Caption = 'Agendamentos'
         OnClick = Agendamentos1Click
+      end
+      object Especialidades1: TMenuItem
+        Caption = 'Especialidades'
+        OnClick = Especialidades1Click
+      end
+      object Mdicos1: TMenuItem
+        Caption = 'M'#233'dicos'
+        OnClick = Mdicos1Click
       end
     end
   end
