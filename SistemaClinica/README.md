@@ -25,10 +25,12 @@
     </body>
 </table>
 
+</br>
+<div style="width:290px">
+    
+**Tecnologias**
 
-<h3>Tecnologias</h3>
-
- 
 <p>Delphi 12.2 <img src="../img/delphi-logo-1024.png" width=50 align="right"/><br/></p>
 <p>MariaDB 10.4.32 <img src="icons/mariadb-icon.svg" width=50 align="right"/><br/></p>
       
+</div>
